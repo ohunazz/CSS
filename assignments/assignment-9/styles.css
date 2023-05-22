@@ -40,3 +40,38 @@ nav {
     background-color: #808080;
     display: inline-block;
 }
+
+.footer-box-1 {
+    width: 710px;
+    height: 497px;
+    margin-left: 144px;
+    background-color: #d9d9d9;
+    display: inline-block;
+    margin-right: 20.67px;
+    vertical-align: top;
+}
+
+.footer-inner-box {
+    width: 223.33px;
+    height: 457px;
+    background-color: #808080;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-inner-box-1 {
+    margin-right: 19.67px;
+}
+
+.footer-inner-box-3 {
+    margin-left: 19.67px;
+}
+
+.footer-box-2 {
+    width: 710px;
+    height: 497px;
+    background-color: #808080;
+    display: inline-block;
+    vertical-align: top;
+}
