@@ -1,0 +1,127 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 20px;
+}
+
+.container {
+    width: max-content;
+    margin: 0 auto;
+    background-color: #ecf0f1;
+    font-size: 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    color: #451dc9;
+    display: block;
+}
+
+.horizontal {
+    list-style: none;
+    margin-bottom: 4px;
+    padding-left: 58px;
+}
+
+.horizontal li {
+    width: 58px;
+    height: 58px;
+    color: #e74c3c;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2px;
+    padding-top: 19px;
+}
+
+.main {
+    margin-bottom: 10px;
+}
+
+.main ul {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.period-numbers li {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 58px;
+    height: 58px;
+    margin-bottom: 2px;
+    padding-top: 19px px;
+}
+
+.period-numbers {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.column {
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.element {
+    width: 58px;
+    height: 58px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.blue .element {
+    background-color: #689bff;
+}
+
+.element p {
+    font-size: 10px;
+    padding-top: 2px;
+}
+
+.element h3 {
+    color: #3a1ba2;
+    font-size: 18px;
+}
+
+.pink .element {
+    background-color: #fd9a98;
+}
+
+.yellow .element {
+    background-color: #fecb00;
+}
+
+footer {
+    padding-left: 58px;
+}
+
+.green .element {
+    background-color: #1fca21;
+}
+
+.lanthanoids .element {
+    display: inline-block;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+h2 {
+    color: #e74c3c;
+    font-size: 14px;
+    display: inline-block;
+    width: 118px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
