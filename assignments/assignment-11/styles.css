@@ -14,7 +14,8 @@
 }
 
 .vertical-box {
-    width: 262px;
+    /* width: 262px; */
+    width: calc((292 * 100%) / 1380 - 30px);
     height: 964px;
     background-color: #808080;
     display: inline-block;
@@ -22,7 +23,8 @@
 }
 
 .main-section-right {
-    width: 1088px;
+    /* width: 1088px; */
+    width: calc((1088 * 100%) / 1380);
     height: 964px;
     vertical-align: top;
     display: inline-block;
@@ -39,7 +41,8 @@ nav {
 }
 
 .horizontal-box {
-    width: 249.5px;
+    /* width: 249.5px; */
+    width: calc((100% - 90px) / 4);
     height: 200px;
     background-color: #808080;
     display: inline-block;
@@ -58,7 +61,8 @@ nav {
 }
 
 .footer-box-1 {
-    width: 809px;
+    /* width: 809px; */
+    width: calc((100% - 90px) / 4 * 3 + 60px);
     height: 624px;
     background-color: #808080;
     display: inline-block;
@@ -66,7 +70,8 @@ nav {
 }
 
 .footer-box-2 {
-    width: 249px;
+    /* width: 249px; */
+    width: calc((100% - 90px) / 4);
     height: 624px;
     background-color: #808080;
     display: inline-block;
