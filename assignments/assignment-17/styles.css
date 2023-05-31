@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/* Square */
+
+.boxes {
+    margin-left: 60px;
+    margin-top: 60px;
+}
 .box-1 {
     width: 500px;
     height: 500px;
@@ -46,3 +52,30 @@
     left: 50px;
     border-radius: 50%;
 }
+
+/*Plus*/
+
+.plus {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 75px;
+}
+
+.horizontal {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    top: 75px;
+}
+
+.vertical {
+    height: 200px;
+    width: 50px;
+    position: absolute;
+    left: 75px;
+    background-color: red;
+}
+
+/* E-letter */
