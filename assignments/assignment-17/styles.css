@@ -65,17 +65,47 @@
 .horizontal {
     position: absolute;
     width: 200px;
-    height: 50px;
+    height: 25px;
     background-color: red;
-    top: 75px;
+    top: 87px;
 }
 
 .vertical {
     height: 200px;
-    width: 50px;
+    width: 25px;
     position: absolute;
-    left: 75px;
+    left: 87px;
     background-color: red;
 }
 
 /* E-letter */
+
+.e-letter-box {
+    height: 200px;
+    width: 150px;
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+
+.e-letter-vertical {
+    height: 200px;
+    width: 25px;
+    background-color: red;
+    position: absolute;
+}
+
+.e-letter {
+    width: 150px;
+    height: 25px;
+    position: absolute;
+    background-color: red;
+}
+
+.e-letter1 {
+    top: 88px;
+}
+
+.e-letter2 {
+    bottom: 0;
+}
