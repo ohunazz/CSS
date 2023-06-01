@@ -67,14 +67,14 @@
     width: 200px;
     height: 25px;
     background-color: red;
-    top: 87px;
+    top: 87.5px;
 }
 
 .vertical {
     height: 200px;
     width: 25px;
     position: absolute;
-    left: 87px;
+    left: 87.5px;
     background-color: red;
 }
 
@@ -108,4 +108,43 @@
 
 .e-letter2 {
     bottom: 0;
+}
+
+/* O-letter */
+
+.o-letter-box {
+    width: 100px;
+    height: 200px;
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+
+.o-letter {
+    position: absolute;
+    background-color: red;
+}
+
+.o-horizontal1 {
+    width: 100px;
+    height: 25px;
+    top: 0;
+}
+
+.o-vertical1 {
+    width: 25px;
+    height: 200px;
+    left: 0;
+}
+
+.o-horizontal2 {
+    width: 100px;
+    height: 25px;
+    bottom: 0;
+}
+
+.o-vertical2 {
+    width: 25px;
+    height: 200px;
+    right: 0;
 }
