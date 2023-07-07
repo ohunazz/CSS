@@ -1,0 +1,273 @@
+HTML
+<!-- HTML -->
+
+<!-- Scenario 1: -->
+<p id="intro" class="highlight">This is an introductory paragraph.</p>
+<style>
+    p#intro {
+        color: blue;
+    } /* 1, 0, 1 = WINNER*/
+    p {
+        color: red;
+    } /* 0, 0, 1*/
+</style>
+
+<!-- --------------- -->
+
+<!-- Scenario 2: -->
+<div id="content" class="highlight">
+    <p>This is a paragraph inside a div.</p>
+</div>
+<style>
+    .highlight p {
+        color: green;
+    } /* 0, 1, 1 WINNER*/
+    div p {
+        color: orange;
+    } /* 0, 0, 2*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 3: -->
+<h1 id="title" class="main">Page Title</h1>
+<style>
+    h1.main {
+        font-size: 24px;
+    } /* 0, 1, 1 */
+    #title {
+        font-size: 30px;
+    } /* 1, 0, 0 WINNER*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 4: -->
+<button id="btn" class="primary large">Click Me</button>
+<style>
+    button.large {
+        font-size: 30px;
+    } /* 0, 1, 1*/
+    button#btn {
+        font-size: 35px;
+    } /* 1, 0, 1 Winner*/
+</style>
+<!-- --------------- -->
+<!-- Scenario 5: -->
+<a href="#" class="link secondary">Read More</a>
+<style>
+    a.link {
+        color: blue;
+    } /* 0, 1, 1 Winner*/
+    .secondary {
+        color: red;
+    } /* 0, 1, 0*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 6: -->
+<section id="banner" class="hero">
+    <h1>Welcome to the homepage!</h1>
+</section>
+<style>
+    #banner h1 {
+        color: white;
+    } /* 1, 0, 1*/
+    .hero h1 {
+        color: black;
+    } /* 0, 1, 1 Winner*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 7: -->
+<div class="container">
+    <p class="text highlight">Hello, World!</p>
+</div>
+<style>
+    .container p {
+        color: green;
+    } /* 0, 1, 1*/
+    div .text {
+        color: yellow;
+    } /* 0, 1, 1 Winner comes last*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 8: -->
+<article id="post" class="blogPost">
+    <h2 class="postTitle">Blog Post Title</h2>
+</article>
+<style>
+    #post .postTitle {
+        font-size: 36px;
+    } /* 1, 1, 0 Winner*/
+    .blogPost h2 {
+        font-size: 32px;
+    } /* 0, 1, 1*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 9: -->
+<section id="banner" class="hero">
+    <h1 class="headline">Welcome to our site!</h1>
+</section>
+<style>
+    #banner .headline {
+        color: white;
+    } /* 1, 1, 0 Winner*/
+    .hero h1 {
+        color: black;
+    } /* 0, 1, 1*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 10: -->
+<ul id="nav" class="primary">
+    <li class="active">Home</li>
+</ul>
+<style>
+    .primary .active {
+        color: blue;
+    } /* 0, 2, 0*/
+    #nav li {
+        color: red;
+    } /*1, 0, 1 Winner*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 11: -->
+<nav id="mainNav" class="siteNav">
+    <a href="#" class="navLink active">Home</a>
+</nav>
+<style>
+    #mainNav .active {
+        color: red;
+    } /* 1, 1, 0 Winner*/
+    .siteNav a {
+        color: blue;
+    } /* 0, 1, 1*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 12: -->
+<div id="wrapper" class="container">
+    <p class="text">Hello, World!</p>
+</div>
+<style>
+    .container p {
+        color: green;
+    } /* 0, 1, 1*/
+    div .text {
+        color: yellow;
+    } /* 0, 1, 1 Winner*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 13: -->
+<article id="post" class="blogPost">
+    <h2 class="postTitle">Blog Post Title</h2>
+</article>
+<style>
+    #post .postTitle {
+        font-size: 24px;
+    } /* 1, 1, 0 Winner*/
+    .blogPost h2 {
+        font-size: 20px;
+    } /* 0, 1, 1*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 14: -->
+<section id="banner" class="hero">
+    <h1 class="headline">Welcome to our site!</h1>
+</section>
+<style>
+    #banner .headline {
+        color: white;
+    } /* 1, 1, 0 Winner*/
+    .hero h1 {
+        color: black;
+    } /* 0, 1, 1*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 15: -->
+<ul id="nav" class="primary">
+    <li class="active">Home</li>
+</ul>
+<style>
+    .primary .active {
+        color: blue;
+    } /* 0, 2, 0*/
+    #nav li {
+        color: red;
+    } /* 1, 0, 1 Winner*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 16: -->
+<div id="header" class="siteHeader">
+    <h1 class="logo">Logo</h1>
+</div>
+<style>
+    .siteHeader .logo {
+        font-size: 30px;
+    } /* 0, 1, 0*/
+    #header h1 {
+        font-size: 28px;
+    } /* 1, 0, 1 Winner*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 17: -->
+<form id="signup">
+    <input type="email" class="inputField" />
+</form>
+<style>
+    form .inputField {
+        border-color: green;
+    } /* 0, 1, 1*/
+    #signup input {
+        border-color: red;
+    } /* 1, 0, 1 Winner*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 18: -->
+<main id="content" class="siteContent">
+    <p class="introText">Welcome to our website!</p>
+</main>
+<style>
+    .siteContent .introText {
+        font-size: 16px;
+    } /* 0, 2, 0*/
+    #content p {
+        font-size: 18px;
+    } /* 1, 0, 1 Winner*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 19: -->
+<aside id="sidebar" class="siteSidebar">
+    <h3 class="widgetTitle">Widget Title</h3>
+</aside>
+<style>
+    .siteSidebar .widgetTitle {
+        font-size: 22px;
+    } /* 0, 2, 0*/
+    #sidebar h3 {
+        font-size: 20px;
+    } /* 1, 0, 1 Winner*/
+</style>
+<!-- --------------- -->
+
+<!-- Scenario 20: -->
+<footer id="footer" class="siteFooter">
+    <p class="copyright">Copyright © 2023</p>
+</footer>
+<style>
+    .siteFooter .copyright {
+        color: white;
+    } /* 0, 2, 0*/
+    #footer p {
+        color: gray;
+    } /* 1, 0, 1 Winner */
+</style>
